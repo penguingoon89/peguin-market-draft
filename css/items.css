@@ -12,7 +12,32 @@
   text-align: center;
 }
 .main__items{
+  padding: 0;
   margin: 60px 0;
+  list-style: none;
+}
+.main__item--img{
+  width: 200px;
+  height: 200px;
+}
+.main__item--name{
+  margin: 10px 0;
+  font-weight: 400;
+  font-size: 18px;
+}
+.main__item--price{
+  margin: 5px 0;
+  font-weight: 900;
+  font-size: 16px;
+}
+.main__item--place{
+  margin: 5px 0;
+  font-size: 16px;
+}
+.main__item--info{
+  margin: 0;
+  font-size: 14px;
+  color: #aeaeae;
 }
 
 .keywords{

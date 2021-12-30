@@ -16,7 +16,7 @@
   height: 640px;
   margin: 0 auto;
 
-  background: url(https://d1unjqcospf8gs.cloudfront.net/assets/home/main/3x/image-3-0c8b631ac2294ac5a3b3e7a3a5580c3e68a3303ad2aded1e84aa57a2e1442786.png) no-repeat right / auto 640px;
+  background: url(../img/sample.png) no-repeat right center / auto 640px;
 }
 .section__title{
   font-size: 48px;
@@ -41,4 +41,18 @@
 }
 .section__text--sub{
   font-size: 14px;
+}
+.section__button{
+  width: 200px;
+  height: 50px;
+  background-color: #F1F3F5;
+  color: #212529;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.section__button:hover{
+  background-color: #aeaeae;
 }
